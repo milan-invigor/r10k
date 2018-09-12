@@ -18,4 +18,7 @@ Now, when you want to test a new profile, you can do the following:
 1. Create a new branch of the Puppet code repository
 2. Create your Puppet code in this new branch
 3. Push the new branch up to the repository
-4. Deploy it as a new environment using the /opt/puppetlabs/puppet/bin/r10k deploy environment -p command.
+4. Deploy it as a new environment using the `sudo /opt/puppetlabs/puppet/bin/r10k deploy environment -p` command
+
+
+test1
