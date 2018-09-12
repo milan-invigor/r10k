@@ -1,4 +1,4 @@
 class profile::base {
-  notify{ 'test 1': }
+  notify{ 'test 2': }
   class { '::ntp': }
 }
