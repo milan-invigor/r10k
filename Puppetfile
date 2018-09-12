@@ -1,5 +1,5 @@
 # Declare forge URL
-forge "http://forge.puppetlabs.com"
+forge 'forge.puppetlabs.com'
 
 ########
 # Forge Syntax
@@ -10,4 +10,8 @@ forge "http://forge.puppetlabs.com"
 ### Start Examples ###
 
 #If no version is specified the latest version available at the time will be installed, and will be kept at that version.
-mod 'puppetlabs/apache'
+
+# Forge Modules
+mod 'puppetlabs/ntp', '4.1.0'
+mod 'puppetlabs/stdlib'
+# mod 'puppetlabs/apache'
